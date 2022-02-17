@@ -9,7 +9,7 @@ html {
   font-size: 1.5rem;
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-top: 3vh;
+  margin-top: 5vh;
   background-color: black;
   cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1535.cur), auto !important;
 }
@@ -17,7 +17,7 @@ html {
 a {
   cursor: url(https://cur.cursors-4u.net/others/oth-1/oth26.ani), url(https://cur.cursors-4u.net/others/oth-1/oth26.png), auto !important;
   text-decoration: none;
-  color: green !important;
+  color: #00ff1a;
 }
 
 .header {
@@ -25,7 +25,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   font-weight: 500;
-  margin-bottom: 10vh;
+  margin-bottom: 12vh;
 }
 
 .name {
@@ -39,4 +39,16 @@ a {
   column-gap: 10vh;
   row-gap: 10vh;
   height: 100%;
+}
+
+.proj_1 {
+  color: white;
+}
+
+.proj_2 {
+  color: yellow;
+}
+
+.proj_3 {
+  color: #ff006a;
 }
