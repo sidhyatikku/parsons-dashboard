@@ -1,0 +1,42 @@
+@import url("https://use.typekit.net/qqs2nom.css");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  /* font-family: 'niveau-grotesk', sans-serif; */
+  font-family: 'Inconsolata', monospace;
+  /* font-weight: 600; */
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  background-color: black;
+  cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1535.cur), auto !important;
+}
+
+a {
+  cursor: url(https://cur.cursors-4u.net/others/oth-1/oth26.ani), url(https://cur.cursors-4u.net/others/oth-1/oth26.png), auto !important;
+  text-decoration: none;
+  color: green !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 10vh;
+}
+
+.name {
+  margin-right: 55vw;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  column-gap: 10vh;
+  row-gap: 10vh;
+  height: 100%;
+}
