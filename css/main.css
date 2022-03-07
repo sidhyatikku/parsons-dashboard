@@ -34,12 +34,19 @@ a {
 
 .projects {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  column-gap: 5vw;
+}
+.section_1, .section_2 {
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   column-gap: 10vh;
   row-gap: 10vh;
   height: 100%;
 }
+
 
 .proj_1 {
   color: white;
@@ -51,4 +58,24 @@ a {
 
 .proj_3 {
   color: #ff006a;
+}
+
+@media only screen and (max-width: 821px) and (orientation: portrait) {
+  html {
+    background-color: #03095c;
+    font-size: 1.2rem;
+  }
+
+  .name {
+    margin-right: inherit;
+  }
+
+  .projects {
+    flex-direction: column;
+    row-gap: 15vw;
+  }
+
+  .section_1, .section_2 {
+    row-gap: 15vw;
+  }
 }
