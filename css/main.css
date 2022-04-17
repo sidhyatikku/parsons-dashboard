@@ -73,6 +73,7 @@ a {
   .projects {
     flex-direction: column;
     row-gap: 15vw;
+    margin-bottom: 5vh;
   }
 
   .section_1, .section_2 {
