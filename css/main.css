@@ -37,6 +37,8 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   column-gap: 5vw;
+  font-size: inherit;
+  margin-bottom: 10vh;
 }
 .section_1, .section_2, .section_3 {
   display: flex;
@@ -47,6 +49,12 @@ a {
   height: 100%;
 }
 
+h3 {
+  color: cyan;
+  font-size: inherit;
+  font-weight: normal;
+  margin-bottom: 8vh;
+}
 
 .proj_1 {
   color: white;
